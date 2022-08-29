@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Shop</title>
+{% endblock  %}
+
+
+{% block body %}
+    <nav class="navbar">
+        <h1>RAHISI</h1>
+
+        <ul>
+            <a href=""><li>Home</li></a>
+            <a href=""><li>Shop</li></a>
+            <a href=""><li>About Us</li></a>
+            <a href=""><li>Contact</li></a>            
+        </ul>
+
+        <div class="left_items">
+            <div class="cart_nav">
+                <h4>Cart</h4>
+                <img src="{{url_for('static',filename='bxs_cart.png')}}" alt="">
+                <div class="cart_number"><span>3</span></div>
+            </div>
+
+            <div class="log_reg">
+                <button class="login" >Log in</button>
+                <button class="register_btn">Register</button>
+            </div>
+        </div>
+
+    </nav>
+{% endblock  %}

@@ -1,0 +1,102 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+}
+
+.navbar h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 43px;
+    color: #18A0FB;
+    margin-right: 50.9px
+}
+
+.navbar ul{
+    display: flex;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    gap: 47px;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+.left_items{
+    display: flex;
+    align-items: center;
+    margin-left: 347px;
+}
+
+.cart_nav h4{
+    font-size: 20px;
+}
+
+.cart_nav{
+    display: flex;
+    position: relative;
+    margin-right: 130px;
+    align-items: center;
+}
+
+.cart_nav img{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 44px;
+
+}
+
+.cart_number{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    left: 70px;
+    top: 14px;
+    border-radius: 100%;
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+}
+
+
+
+.left_items  button{
+    width: 130px;
+    height: 40px;
+    border: 1px solid #18A0FB;
+    border-radius: 6px;
+    margin-right: 43px;
+}
+
+.left_items .log_reg .login{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #18A0FB;
+    background-color: transparent;
+}
+
+.left_items .log_reg .register_btn{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    color: white;
+    background-color: #18A0FB;
+}
+
+
+

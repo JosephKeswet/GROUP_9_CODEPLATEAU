@@ -31,6 +31,7 @@ body{
 
 .navbar a{
     text-decoration: none;
+    cursor: pointer;
     color: black;
 }
 
@@ -49,6 +50,7 @@ body{
 
 .cart_nav h4{
     font-size: 20px;
+    cursor: pointer;
 }
 
 .cart_nav{
@@ -60,6 +62,7 @@ body{
 
 .cart_nav img{
     position: absolute;
+    cursor: pointer;
     width: 40px;
     height: 40px;
     left: 44px;
@@ -87,6 +90,7 @@ body{
     width: 130px;
     height: 40px;
     border: 1px solid #18A0FB;
+    cursor: pointer;
     border-radius: 6px;
     margin-right: 43px;
 }
@@ -154,6 +158,7 @@ body{
     border: 1px solid transparent;
     background: #18A0FB;
     border-radius: 6px;
+    cursor: pointer;
 }
 
 .hero_images{
@@ -168,20 +173,144 @@ body{
     position: absolute;
 }
 
-/* .filter{
-    display: flex;
-    flex-direction: row;
-} */
+.filter_section h1{
+    margin-left: 73px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
 
-.filter_container{
-    display: block;
+    color: #18A0FB;
 }
 
+.filter{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 91px;
+} 
+
 .filter_container h3{
+    color: #18A0FB;
     padding-left: 70px;
 }
 
+/* Section for group styling */
+
+.best_selling{
+    margin-top: 195px;
+}
+
+.best_selling h1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    color: #18A0FB;
+}
+
+.best_selling .categories ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #646464;
+    margin-left: 300px;
+    gap: 40px;
+    cursor: pointer;
+}
+
+.categories{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.categories h3{
+    font-family: 'Koulen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 43px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 83px;
+}
+
+.card_container{
+    width: 365px;
+    height: 585px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.card_container .main_content{
+    width: 317px;
+    height: 190px;
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+
+.card_container .card_main_img{
+    width: 365.8px;
+    height: 373px;
+    border-radius: 20px 20px 0px 0px;
+}
 
 
 
+.card_container .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.card_container .main_content h2{
+    font-family: 'Koulen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 2px;
+    color: #18A0FB;
+}
+
+.card_container .main_content h3{
+    font-family: 'Koulen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    padding-top: 10px;
+    line-height: 5px;
+    color: #0D1222;
+}
+
+.card_container .main_content button{
+    width: 317px;
+    height: 56px;
+    border: 1px solid transparent;
+    color: white;
+    background: #18A0FB;
+    border-radius: 6px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    margin-top: 19px;
+    color: #F5F5F5;
+
+    
+}

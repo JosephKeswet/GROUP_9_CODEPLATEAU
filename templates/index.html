@@ -2,10 +2,12 @@
 
 {% block head %}
 <title>Shop</title>
+<script src="https://kit.fontawesome.com/1fca7a872a.js" crossorigin="anonymous"></script>
 {% endblock  %}
 
 
 {% block body %}
+    <!-- Navigation Bar -->
     <nav class="navbar">
         <h1>RAHISI</h1>
 
@@ -31,6 +33,7 @@
 
     </nav>
 
+    <!-- Hero section -->
     <section class="hero">
 
         <div class="hero_content">
@@ -47,34 +50,85 @@
 
     </section>
 
-    <section>
+    <!-- Categories section -->
+    <section class="filter_section">
+        <h1>Categories</h1>
 
-        <div>
-            <h1>Filter</h1>
+        <div class="filter">
+        
 
             <div class="filter_container">
                 <img src="{{url_for('static',filename='T-shirt.png')}}" alt="">
-                <h3 style="color: red;">T-shirt</h3>
+                <h3>T-shirt</h3>
             </div>
 
 
             <div class="filter_container">
-                <img src="{{url_for('static',filename='T-shirt.png')}}" alt="">
-                <h3 style="color: red;">T-shirt</h3>
+                <img src="{{url_for('static',filename='Jacket.png')}}" alt="">
+                <h3>Jacket</h3>
             </div>
 
 
             <div class="filter_container">
-                <img src="{{url_for('static',filename='T-shirt.png')}}" alt="">
-                <h3 style="color: red;">T-shirt</h3>
+                <img src="{{url_for('static',filename='Shirt.png')}}" alt="">
+                <h3>Shirt</h3>
             </div>
 
 
             <div class="filter_container">
-                <img src="{{url_for('static',filename='T-shirt.png')}}" alt="">
-                <h3 style="color: red;">T-shirt</h3>
+                <img src="{{url_for('static',filename='Jeans.png')}}" alt="">
+                <h3>Jeans</h3>
             </div>
+
         </div>
 
     </section>
+
+    <!-- Our best selling products -->
+    <section class="best_selling">
+        <h1>Our Best Selling Products</h1>
+        <div class="categories">
+            <ul>
+
+                <li style="color:#18A0FB; text-decoration:underline;">T-shirt</li>
+                <li>Jacket</li>
+                <li>Shirt</li>
+                <li>T-shirt</li>
+            </ul>
+
+            <h3>VIEW ALL <span><i class="fa-solid fa-arrow-right-long fa-xl"></i></span> </h3>
+        </div>
+        <!-- Cards -->
+        <!-- <div class="cards">
+
+                    <div class="card_container">
+                        
+                        
+                            <img src="{{url_for('static',filename='Card_1.png')}}" class="card_main_img" alt="">
+                        <div class="main_content">
+                            <h2>Gucci</h2>
+                            <h3>Price: $ 430</h3>
+
+                            <div class="content">
+                                <div style="display: flex; align-items:center;">
+                                    <img src="{{url_for('static',filename='Star 1.png')}}" alt="">
+                                    <img src="{{url_for('static',filename='Star 1.png')}}" alt="">
+                                    <img src="{{url_for('static',filename='Star 1.png')}}" alt="">
+                                    <img src="{{url_for('static',filename='Star 1.png')}}" alt="">
+                                    <span style="padding-left: 15px;">(1k)</span>
+                                </div>
+                            
+                                <div style="display: flex; align-items:center; gap:10px">
+                                    <span style="color: red;"><i class="fa-solid fa-heart fa-xl"></i></span>
+                                    <span><i class="fa-regular fa-bookmark fa-xl"></i></i></span>
+                                </div>
+
+                            </div>
+
+                            <button>ADD TO CART</button>
+                        </div>
+
+                    </div>
+        </div> -->
+</section>
 {% endblock  %}

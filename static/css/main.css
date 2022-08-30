@@ -351,6 +351,7 @@ footer{
 }
 
 .home_sect ul li{
+    cursor: pointer;
     padding-bottom: 15px;
 }
 
@@ -384,6 +385,7 @@ footer{
 }
 
 .cat_sect ul li{
+    cursor: pointer;
     padding-bottom: 15px;
 
 }
@@ -406,6 +408,10 @@ footer{
     gap: 16px;
     margin-top: 26px;
     list-style-type: none;
+}
+
+.contact_sect ul li{
+    cursor: pointer;
 }
 
 

@@ -9,7 +9,7 @@ app.config['MYSQL_PASSWORD'] = 'Joseph'
 app.config['MYSQL_DB'] = 'flask'
 mysql = MySQL(app)
 
- 
+    
 @app.route('/')
 def index():
     return render_template('index.html')

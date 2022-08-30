@@ -314,3 +314,98 @@ body{
 
     
 }
+
+footer{
+    display: flex;
+    height: 286px;
+    justify-content: space-evenly;
+    background-color: #18A0FB;
+}
+
+.rahisi_sect{
+    width: 424px;
+    height: 132px;
+    color: #FFFFFF;
+
+}
+
+.rahisi{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+
+.home_sect{
+    color: #FFFFFF;
+}
+
+.home_sect .home{
+    padding-left: 35px;
+}
+
+.home_sect ul{
+    list-style-type: none;
+}
+
+.home_sect ul li{
+    padding-bottom: 15px;
+}
+
+.shop_sect{
+    color: #FFFFFF;
+}
+
+.shop_sect .shop{
+    padding-left: 35px;
+}
+
+.shop_sect ul{
+    list-style-type: none;
+}
+
+.shop_sect ul li{
+    padding-bottom: 15px;
+}
+
+
+.cat_sect{
+    color: #FFFFFF;
+}
+
+.cat_sect .cat{
+    padding-left: 35px;
+}
+
+.cat_sect ul{
+    list-style-type: none;
+}
+
+.cat_sect ul li{
+    padding-bottom: 15px;
+
+}
+
+
+.contact_sect{
+    color: #FFFFFF;
+}
+
+.contact_sect .contact{
+    padding-left: 35px;
+}
+
+.contact_sect p{
+    padding-left: 35px;
+}
+
+.contact_sect ul{
+    display: flex;
+    gap: 16px;
+    margin-top: 26px;
+    list-style-type: none;
+}
+
+
